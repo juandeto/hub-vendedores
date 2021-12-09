@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;500&display=swap');
+
+
+
+$text: $grey;
+$darker-text: $darker-grey;
+$primary: $light-blue;
+$secondary: violet;
+$grad-background: linear-gradient(to top, $lightest-blue 0%, $white-color 80%); 
+$box-shadow1: 0px 3px 3px rgba(0, 0, 0, 0.25);
+$background: $white-color;
+
+$breakpoints: (
+  'tiny': (min-width: 200px),
+  'smaller': (min-width: 400px),
+  'small': (min-width: 600px),
+  'medium': (min-width: 800px),
+  'large': (min-width: 1000px),
+  'huge': (min-width: 1200px),
+);
+
+$tinyFont: 0.7rem;
+$smallFont: 0.85rem;
+$normalFont: 1rem;
+$bigFont: 1.25rem;
+$biggerFont: 1.5rem;

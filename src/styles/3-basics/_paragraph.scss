@@ -1,0 +1,34 @@
+
+
+.paragraph{
+    &.primary-c{
+            color: $primary;
+    }
+    &.text-c {
+            color: $text;
+    }
+    &.bigger-fz{
+        font-size: $biggerFont;
+    }
+    &.big-fz{
+        font-size: $bigFont;
+    }
+    &.normal-fz{
+    font-size: $normalFont;
+    }
+    &.small-fz{
+        font-size: $smallFont;
+    }    
+    &.tiny-fz{
+        font-size: $tinyFont;
+    }
+    &.normal-lh {
+        line-height: 20px;
+    }
+    &.big-lh {
+        line-height: 24px;
+    }
+    &.bigger-lh {
+        line-height: 30px;
+    }
+}

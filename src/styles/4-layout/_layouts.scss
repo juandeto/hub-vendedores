@@ -1,0 +1,72 @@
+
+.staticHero_titles {
+    width: 44%;
+    padding: 16px;
+}
+
+.mediaLinks{
+    @include useFlex(space-between);
+    width: 170px;
+    background: $background;
+
+}
+
+
+
+.moduleList__link{
+    color: $text;
+    font-weight: normal;
+    font-size: $bigFont;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.cardContent {
+    padding: 32px 48px 0 48px;
+}
+
+.seeMore__label{
+    width: 100%;
+    border: none;
+    @include useFlex(space-between, center);
+    height: 52px;
+    padding: 8px 32px;
+    @include useBackgroundGradient(bottom);
+    cursor: pointer;
+    overflow: hidden;
+    .seeMore__moduloRef {
+        text-transform: uppercase;
+        color: $text;
+        font-weight: 700;
+    }
+    .seeMore__icon{
+        color: $primary;
+        font-size: $bigFont;
+    }
+}
+
+.cardDropdown {
+    transition: 0.3s all ease;
+    overflow: hidden;
+}
+
+
+
+
+
+.freeTrial_btn {
+    position: sticky;
+    top: 15%;
+    height: 100vh;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    button {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        transform: rotate(270deg);
+        transform-origin: left top;
+        width: 104px;
+        font-size: 14px;
+    }
+}

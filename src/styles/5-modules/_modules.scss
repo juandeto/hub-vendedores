@@ -1,0 +1,35 @@
+
+
+
+.staticHero {
+    min-height: 405px;
+    @include useFlex(space-around);
+    background: $grad-background;
+}
+
+
+.divisorBar {
+    padding: 16px 32px;
+    @include useFlex(space-between);
+    box-shadow: $box-shadow1;
+}
+
+
+.contentModules {
+    position: relative;
+    @include useFlex(space-between, none);
+    aside {
+        width: 35%;
+        position: relative;
+    }
+    .cardsDisplay {
+        width: calc(65% - 70px);
+        padding: 16px 64px;
+        position: relative;
+    }
+    
+}
+
+.cardWrapper {
+    margin-bottom: 3rem;
+}

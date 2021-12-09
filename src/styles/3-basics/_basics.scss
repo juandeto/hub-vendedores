@@ -1,0 +1,178 @@
+
+.list__content {
+    counter-reset: my-awesome-counter;
+    li {
+        list-style-position: inside;
+        counter-increment: my-awesome-counter;
+        &.disc {
+            list-style-type: disc;
+        }
+        &.circle {
+            list-style-type: circle;
+        }
+        &.square {
+            list-style-type: square;
+        }
+        &.roman {
+            list-style-type: upper-roman;
+        }  
+        &.bigger{
+            font-size: $biggerFont;
+        }
+        &.big{
+            font-size: $bigFont;
+        }
+        &.normal{
+        font-size: $normalFont;
+        }
+        &.small{
+            font-size: $smallFont;
+        }    
+        &.tiny{
+            font-size: $tinyFont;
+        }
+        p{
+            display: inline-block;
+        }
+
+        &.primary-bull::marker {
+            color: $primary;
+            font-weight: bold;
+        }
+        &.secondary-bull {
+             color: $secondary;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+        &.text-bull::marker {
+            color: $text;
+            font-weight: bold;
+            font-size: 1.3rem;
+        }
+    }
+   
+      
+    
+    
+}
+
+
+
+.imageJsx{
+    overflow: hidden;
+    .imageJsx__img {
+        width: 100%;
+        overflow: hidden;
+    }
+}
+
+
+//************//
+//ICON TOOLTIP
+//************//
+
+.iconTooltip{
+    position: relative;
+    font-size: 1.2rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: $primary;
+    &.primary {
+        color: $primary;
+    }
+    &.secondary{
+        color: $secondary;
+    }
+    &.text {
+        color: $text;
+    }
+    a{
+        color: inherit;
+    }
+    svg{
+        color: inherit;
+        font-size: 1.5rem;
+      }
+    .iconTooltip__label {
+        position: absolute;
+        border: 1px solid rgba($grey, 0.5);
+        visibility: hidden;
+        padding: 8px 16px;
+        border-radius: 4px;
+        font-size: 0.9rem;
+        text-align: center;
+        z-index: 2;
+        background: $white-color;
+        transform: translate(-50%);
+        &.top {
+            left: 0;
+            top: -120%;
+        }
+        &.bottom {
+            left: 0;
+            bottom: -120%;
+        }
+        &.right {
+            right: -120%;
+            top: 0;
+        }
+        &.left {
+            top: 0;
+            left: -120%;
+        }
+    }
+}
+
+.iconTooltip:hover > .iconTooltip__label {
+    visibility: visible;
+  } 
+
+
+
+  //*********************
+  // BOX CONTENT
+  //*********************
+
+  .boxContent {
+      box-shadow: $box-shadow1;
+      padding: 8px;
+  }
+
+
+  //**********************
+  // CARD
+//*********************
+
+  .card__container {
+    border-radius: 3px;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    background: #FFFFFF;
+  }
+
+
+  //******************************
+  // VIDEO YOUTUBE
+  //******************************
+
+  .video_responsive {
+    overflow: hidden;
+    position: relative;
+  }
+
+  //*********************
+  // UNDERLINE
+  //*********************
+
+  .titleUnderline {
+      position: relative;
+      height: 4px;
+  }
+  .titleUnderline::before {
+      content: "";
+      position: absolute;
+      border-top: 2px solid $primary;
+      top: 8px;
+      left: -32px;
+      width:calc(100% + 64px);
+  }
