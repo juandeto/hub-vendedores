@@ -1,10 +1,9 @@
 import  { FC } from 'react'; 
 
 
-type direction = "column" | "column-reverse" | "row" | "row-reverse" | "-moz-initial" | "inherit" | "initial" | "revert" | "unset" & typeof defaultDirection
+type direction = "column" | "column-reverse" | "row" | "row-reverse" | "-moz-initial" | "inherit" | "initial" | "revert" | "unset"
 type wrap = "nowrap" | "wrap" | "wrap-reverse" 
 
-const defaultDirection = "column"
 
 interface PropsFlexBoxContainer {
     justifyContent?: string,
@@ -17,12 +16,15 @@ interface PropsFlexBoxContainer {
     children: (JSX.Element | null) | (JSX.Element | null)[]
 }
 
-const defaultProps = {
+const defaultProps: PropsFlexBoxContainer = {
     justifyContent: "normal",
     alignItems:"center",
     flexBasis:"content",
     gap:"16px",
+    flexWrap: "wrap",
     padding:"8px 16px",
+    flexDirection: 'column',
+    children: null
 }
 
 const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
