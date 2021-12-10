@@ -6,12 +6,12 @@ interface PropsBoxContent {
 }
 
 
-const BoxContent: FC<PropsBoxContent> = ({children, styles={width: "auto", height: "auto", padding: "8px"}}) => (
-        <div 
+const BoxContent: FC<PropsBoxContent> = function({children, styles={width: "auto", height: "auto", padding: "8px"}}) {
+  return <div 
         style={{...styles}}
-        className={`boxContent`}>
+        className="boxContent">
             {children}
         </div>
-    )
+}
 
 export default BoxContent;

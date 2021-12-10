@@ -7,8 +7,13 @@ interface EmbedYoutubeProps {
     id: string
 }
 
-const EmbedYoutube: React.FC<EmbedYoutubeProps> = ({ width="853", height="480", id }) => (
-        <div className="video__responsive">
+const defaultProps = {
+    width: '853',
+    height: '480'
+}
+
+const EmbedYoutube: React.FC<EmbedYoutubeProps> = function({ width, height, id }) {
+  return <div className="video__responsive">
              <iframe
                 width={width}
                 height={height}
@@ -18,8 +23,8 @@ const EmbedYoutube: React.FC<EmbedYoutubeProps> = ({ width="853", height="480", 
                 allowFullScreen
                 />
         </div>
-    )
+}
 
-
+EmbedYoutube.defaultProps = defaultProps
 
 export default EmbedYoutube;

@@ -1,24 +1,27 @@
-import * as React from 'react';
-
-type ChildElems = (JSX.Element | null) | (JSX.Element | null)[]
+import { FC } from 'react';
 
 
 interface CardProps {
-    children: ChildElems,
     id: string,
     addedClass?: string
 }
 
-const Card: React.FC<CardProps> = ({ children, id, addedClass }) => {
+const defaultProps = {
+    addedClass: "",
+}
+
+const Card: FC<CardProps> = function({ children, id, addedClass }) {
+
 
     return (
         <article 
         id={id}
-        className={`card__container ${addedClass ? addedClass : ""}`}>
+        className={`card__container ${addedClass}`}>
            {children}
         </article>
     )
 }
 
+Card.defaultProps = defaultProps;
 
 export default Card;

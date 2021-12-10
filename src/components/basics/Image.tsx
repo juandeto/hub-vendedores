@@ -8,10 +8,10 @@ interface PropsImg {
 }
 
 
-const Image: FC<PropsImg> = ({width="100%", height="100%", objectFit="cover", src}) => (
-    <div className={`imageJsx`} style={{width: width, height: height}}>
-        <img src={src}  style={{objectFit: objectFit}} className={`imageJsx__img`} />
+const Image: FC<PropsImg> = function({width="100%", height="100%", objectFit="cover", src}) {
+  return <div className="imageJsx" style={{width, height}}>
+        <img src={src}  style={{objectFit}} className="imageJsx__img" />
     </div>
-    )
+}
 
 export default Image;

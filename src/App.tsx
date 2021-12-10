@@ -3,8 +3,7 @@ import 'styles/index.scss'
 import HubSellers from 'components'
 
 
-interface PropsApp {}
 
-const App: FC<PropsApp> = ({}: PropsApp) => <HubSellers />
+const App: FC = () => <HubSellers />
 
 export default App

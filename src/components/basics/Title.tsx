@@ -7,14 +7,16 @@ interface PropsTitle {
     onClick?: () => void
 }
 
+
+
 type tag = 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
 
-const Title: FC<PropsTitle> = ({Tag="h3", color="primary", title, onClick}) => (
-        <Tag 
+const Title: FC<PropsTitle> = function({Tag="h3", color="primary", title, onClick}) {
+  return <Tag 
         onClick={onClick}
         className={`title ${color}`}>
             {title}
         </Tag>
-    )
+}
 
 export default Title;

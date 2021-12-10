@@ -9,8 +9,8 @@ interface PropsSeeMoreLabel {
 
 const SeeMoreLabel: FC<PropsSeeMoreLabel> = ({index, isOpen, handleSeeMore}) => {
     const handleKeyboardOption = (ev:any) => {
-        console.log('key code: ', ev)
-        if (ev.keyCode == 49 + index) {
+
+        if (ev.keyCode === 49 + index) {
             handleSeeMore()
            }
     }

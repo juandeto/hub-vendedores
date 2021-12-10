@@ -1,22 +1,28 @@
 import  { FC } from 'react'; 
 import 'styles/3-basics/_buttons.scss';
 
-type BtnType = 'primary' | 'secondary'
+type BtnType = 'primary' | 'secondary' | undefined
 
 interface PropsBtn {
-    type?: BtnType,
+    type: BtnType & 'primary',
     label: string,
     disabled?: boolean,
     styles?: React.CSSProperties,
     cta: (() => void) | undefined
 }
 
-const Button: FC<PropsBtn> = ({ label, type = "primary", disabled = false, cta, styles }: PropsBtn) => {
+const defaultProps = {
+    disabled: false,
+    styles: {}
+}
 
+
+const Button: FC<PropsBtn> = function({ label, type, disabled, cta, styles }) {
 
 
     return (
         <button 
+        type="button"
         style={{...styles}}
         disabled={disabled}
         className={`buttonType ${type}-button`}
@@ -26,5 +32,7 @@ const Button: FC<PropsBtn> = ({ label, type = "primary", disabled = false, cta, 
         </button>
     )
 }
+
+Button.defaultProps = defaultProps;
 
 export default Button;

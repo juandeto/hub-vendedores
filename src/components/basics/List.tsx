@@ -19,7 +19,7 @@ interface PropsUlist {
 }
 
 
-const UList: FC<PropsUlist> = ({
+const UList: FC<PropsUlist> = function({
                                 ListType="ul",
                                 items, 
                                 fontSize='normal',
@@ -27,13 +27,13 @@ const UList: FC<PropsUlist> = ({
                                 lineHeight= "24px", 
                                 bulletType, 
                                 margin="0",
-                                 colorBullet="primary"}: PropsUlist) => (
-        <ListType
-        className={`list__content`}
+                                 colorBullet="primary"}: PropsUlist) {
+  return <ListType
+        className="list__content"
         >
             {
             items.map((item, idx) => <li 
-                                        style={{lineHeight: lineHeight, margin: margin, fontWeight: fontWeight}}
+                                        style={{lineHeight, margin, fontWeight}}
                                         className={`li__item ${bulletType} ${fontSize} ${colorBullet}-bull`}
                                         key={idx} 
                                         onClick={item.onClick}>
@@ -41,6 +41,6 @@ const UList: FC<PropsUlist> = ({
                                         </li>)
             }
         </ListType>
-    )
+}
 
 export default UList;
