@@ -96,7 +96,7 @@
       }
     .iconTooltip__label {
         position: absolute;
-        border: 1px solid rgba($grey, 0.5);
+        border: 1px solid rgba($grey, 0.1);
         visibility: hidden;
         padding: 8px 16px;
         border-radius: 4px;
@@ -104,24 +104,34 @@
         text-align: center;
         z-index: 2;
         background: $white-color;
-        transform: translate(-50%);
+        transform: translate(-40%);
+        will-change: transform;
+        outline-offset: 4px;
         &.top {
             left: 0;
-            top: -120%;
+            top: -175%;
         }
         &.bottom {
             left: 0;
-            bottom: -120%;
+            bottom: -175%;
         }
         &.right {
-            right: -120%;
+            right: -14%;
             top: 0;
         }
         &.left {
             top: 0;
-            left: -120%;
+            left: -175%;
         }
     }
+}
+
+.iconTooltip:active{
+    transform: scale(0.9);
+    transition:
+    transform
+    200ms
+    ease-in;
 }
 
 .iconTooltip:hover > .iconTooltip__label {
@@ -135,7 +145,7 @@
   //*********************
 
   .boxContent {
-      box-shadow: $box-shadow1;
+      box-shadow: $box-shadow-medium;
       padding: 8px;
   }
 
@@ -146,7 +156,7 @@
 
   .card__container {
     border-radius: 3px;
-    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+    box-shadow: $box-shadow-medium;
     background: #FFFFFF;
   }
 
@@ -155,9 +165,11 @@
   // VIDEO YOUTUBE
   //******************************
 
-  .video_responsive {
+  .video__responsive {
     overflow: hidden;
     position: relative;
+    @include useFlex(center, center);
+    align-self: center;
   }
 
   //*********************

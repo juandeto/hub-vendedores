@@ -1,9 +1,10 @@
 import  { FC, useRef, useState, useEffect } from 'react'; 
 import { JsxProps } from 'react-app-env'
+import FlexBoxContainer from 'components/basics/FleboxContainer';
 import jsxHandler from 'utils/jsxHandler'
 
 interface PropsCardContent {
-    dropdownContent: JsxProps[],
+    dropdownContent: [],
     index: number,
     isOpen: boolean
 }
@@ -17,25 +18,33 @@ const CardContent: FC<PropsCardContent> = ({dropdownContent, isOpen}: PropsCardC
     useEffect(() => {
         if(childrens?.length){
             let height = 0
+            console.log('childrens: ', childrens)
             for (let i = 0; i < childrens.length; i+=1) {
                 height +=  childrens[i]?.clientHeight || 0;
-            } 
-            setChildHeight(height)
+            }
+            setChildHeight(height )
         }
     })
 
     return (
         <div ref={dropRef} 
         style={{
-            padding:  `${isOpen ? padding : 0}px`,
+            padding:  `${isOpen ? padding : 0}px 0`,
             maxHeight: `${isOpen ? (padding * 4) + (childHeight || 0) : 0}px`
         }}
             className='cardDropdown'>
-            {
-                dropdownContent.map((jsx:JsxProps, key: number)=> {
-                    const { type, properties} = jsx
-
-                    return jsxHandler({type, properties, key})
+                {
+                Object.values(dropdownContent).map((s: JsxProps[] )=> {
+                    
+                    return <FlexBoxContainer alignItems='flex-start'>
+                            {
+                                s.map((jsx:JsxProps, key:number)=> {
+                                    const { type, properties} = jsx
+                
+                                    return jsxHandler({type, properties, key})
+                                })
+                            }
+                        </FlexBoxContainer>
                 })
             }
         </div>

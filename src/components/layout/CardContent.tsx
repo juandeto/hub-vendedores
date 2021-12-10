@@ -3,9 +3,10 @@ import { JsxProps } from 'react-app-env'
 import jsxHandler from 'utils/jsxHandler'
 import Title from 'components/basics/Title'
 import Spacer from 'components/basics/Spacer';
+import FlexBoxContainer from 'components/basics/FleboxContainer';
 
 interface PropsCardContent {
-    cardContent: JsxProps[],
+    cardContent: [],
     index: number
 }
 
@@ -16,12 +17,20 @@ const CardContent: FC<PropsCardContent> = ({cardContent, index}: PropsCardConten
             <Title Tag="h3" title={`MÓDULO ${index + 1}`} color='primary'/>
             <Spacer type="vertical" size="16px"/>
             {
-                cardContent.map((jsx:JsxProps, key:number)=> {
-                    const { type, properties} = jsx
-
-                    return jsxHandler({type, properties, key})
+                Object.values(cardContent).map((s: JsxProps[] )=> {
+                    console.log('section: ', s)
+                    return <FlexBoxContainer alignItems='flex-start'>
+                            {
+                                s.map((jsx:JsxProps, key:number)=> {
+                                    const { type, properties} = jsx
+                
+                                    return jsxHandler({type, properties, key})
+                                })
+                           }
+                        </FlexBoxContainer>
                 })
             }
+
         </div>
     )
 }

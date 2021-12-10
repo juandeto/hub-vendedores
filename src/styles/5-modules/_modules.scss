@@ -11,7 +11,7 @@
 .divisorBar {
     padding: 16px 32px;
     @include useFlex(space-between);
-    box-shadow: $box-shadow1;
+    box-shadow: $box-shadow-medium;
 }
 
 
@@ -21,6 +21,7 @@
     aside {
         width: 35%;
         position: relative;
+        z-index: 2;
     }
     .cardsDisplay {
         width: calc(65% - 70px);
