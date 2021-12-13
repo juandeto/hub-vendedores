@@ -11,14 +11,15 @@ interface PropsCardContent {
 }
 
 const CardContent: FC<PropsCardContent> = function({cardContent, index}: PropsCardContent) {
+    const keys = Object.keys(cardContent)
     
     return (
-        <div className="cardContent" >
+        <div className="cardContent">
             <Title Tag="h3" title={`MÓDULO ${index + 1}`} color='primary'/>
             <Spacer type="vertical" size="16px"/>
             {
-                Object.values(cardContent).map((s: JsxProps[] )=> {
-                    return <FlexBoxContainer alignItems='flex-start'>
+                Object.values(cardContent).map((s: JsxProps[], i: number )=> {
+                    return <FlexBoxContainer alignItems='flex-start' key={keys[i]}>
                             {
                                 s.map((jsx:JsxProps, key:number)=> {
                                     const { type, properties} = jsx

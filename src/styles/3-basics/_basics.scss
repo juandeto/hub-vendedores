@@ -193,4 +193,38 @@
       top: 8px;
       left: -32px;
       width:calc(100% + 64px);
-  }
+}
+
+
+
+//*********************
+// DROPDOWN
+//*********************
+
+.dropdown__menu {
+    will-change: visibility;
+    visibility: hidden;
+    position: absolute;
+    top: 120%;
+    background: $background;
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: $box-shadow-low;
+    z-index: 3;
+    &.horizonal {
+        @include useFlex(space-between, center, row)
+    }
+    &.vertical {
+        @include useFlex(space-between, center, column)
+    }
+
+    &.show {
+        visibility: visible;
+    }
+
+    .dropdown__item {
+        width: 100%;
+        cursor: pointer;
+        user-select: none;
+    }
+}

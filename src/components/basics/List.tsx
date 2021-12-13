@@ -40,7 +40,7 @@ const UList: FC<PropsUlist> = function({
                                 bulletType, 
                                 margin,
                                  colorBullet}: PropsUlist) {
-
+                                    
 
   return <ListType
         className="list__content"

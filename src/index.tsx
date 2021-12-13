@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { store } from './state/store';
 import App from './App';
+import './i18n/i18n'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

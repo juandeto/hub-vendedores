@@ -1,4 +1,5 @@
 import  { FC } from 'react'; 
+import { useTranslation } from 'react-i18next';
 
 interface PropsTitle {
     Tag?: tag,
@@ -17,10 +18,12 @@ const defaultProps = {
 }
 
 const Title: FC<PropsTitle> = function({Tag="h3", color, title, onClick}) {
+    const { t } = useTranslation('modules');
+
   return <Tag 
         onClick={onClick}
         className={`title ${color}`}>
-            {title}
+            {t(title)}
         </Tag>
 }
 

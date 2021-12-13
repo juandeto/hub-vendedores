@@ -21,7 +21,7 @@ const Paragraph: FC<PropsParagraph> = function({paragraph, color, fontSize, line
 
     return (
         <Markdown 
-        // eslint-disable-next-line
+        /* eslint react/no-children-prop: ["error", { "allowSelfClosing": true }] */
              children={paragraph} 
              components={{
                 p: (node) => <p className={`paragraph ${color}-c ${fontSize}-fz`} style={{ lineHeight}}>{node.children}</p>,

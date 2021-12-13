@@ -7,8 +7,10 @@ import Spacer from 'components/basics/Spacer'
 import EmbedYoutube from 'components/basics/EmbedYoutube'
 import Image from 'components/basics/Image'
 
+
 // eslint-disable jsx-props-no-spreading
 const jsxHandler: React.FC<JsxProps> = ({type, properties, key}) => {
+
 
        switch (type) {// eslint-disable-next-line
         case 'paragraph': return <Paragraph key={key} paragraph={properties.paragraph} {...properties} />
@@ -19,9 +21,9 @@ const jsxHandler: React.FC<JsxProps> = ({type, properties, key}) => {
 
         case 'spacer': return <Spacer key={key} size={properties.size} {...properties}/>
 
-        case 'youtube-video': return <EmbedYoutube id={properties.id} {...properties} />
+        case 'youtube-video': return <EmbedYoutube key={key} id={properties.id} {...properties} />
 
-        case 'image': return <Image src={properties.src} {...properties}/>
+        case 'image': return <Image key={key} src={properties.src} {...properties}/>
 
         default: return <Paragraph key={key} paragraph="No element selected" />
     } 
