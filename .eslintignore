@@ -1,4 +1,5 @@
 *.css
 *.svg
 *.scss
-/serviceWorker.ts
+serviceWorker.ts
+src/features

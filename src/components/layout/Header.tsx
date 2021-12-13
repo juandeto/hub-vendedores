@@ -1,14 +1,9 @@
 import  { FC } from 'react'; 
 
-interface PropsComponent {
-
-}
-
-const Component: FC<PropsComponent> = ({}: PropsComponent) => {
+const Component: FC = function() {
 
     return (
-        <>
-        </>
+        <header></header>
     )
 }
 

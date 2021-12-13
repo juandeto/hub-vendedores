@@ -4,7 +4,7 @@ import StaticHero from 'components/modules/StaticHero'
 import DivisorBar from 'components/modules/DivisorBar'
 import CardsModule from 'components/modules/CardsModule'
 
-const Main: FC = () => {
+const Main: FC = function() {
     
     return (
         <MainWrapper>

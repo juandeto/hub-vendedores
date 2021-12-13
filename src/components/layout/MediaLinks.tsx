@@ -3,7 +3,7 @@ import { FaFacebook, FaLinkedin, FaInstagram, FaYoutube } from 'react-icons/fa'
 import IconTooltip from 'components/basics/IconTooltip'
 
 
-const MediaLinks: FC = () => {
+const MediaLinks: FC = function() {
 
     const mediaLinks = [
         {
@@ -29,9 +29,9 @@ const MediaLinks: FC = () => {
     ]
 
     return (
-        <div className="mediaLinks">
+        <div className="mediaLinks" role="navigation">
             {
-                mediaLinks.map((props, i) => <IconTooltip key={i} {...props}/>)
+                mediaLinks.map((props) => <IconTooltip key={props.label} {...props}/>)
             }
         </div>
     )

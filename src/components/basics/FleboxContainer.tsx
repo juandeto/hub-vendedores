@@ -12,19 +12,17 @@ interface PropsFlexBoxContainer {
     flexBasis?: string,
     flexWrap?: wrap & 'wrap',
     gap?: string,
-    padding?: string,
-    children: (JSX.Element | null) | (JSX.Element | null)[]
+    padding?: string
 }
 
-const defaultProps: PropsFlexBoxContainer = {
+const defaultProps: Partial<PropsFlexBoxContainer> = {
     justifyContent: "normal",
     alignItems:"center",
     flexBasis:"content",
     gap:"16px",
     flexWrap: "wrap",
     padding:"8px 16px",
-    flexDirection: 'column',
-    children: null
+    flexDirection: 'column'
 }
 
 const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
@@ -35,20 +33,20 @@ const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
     flexWrap,
     gap,
     padding,
-    children
+    ...props
 }) {
-    console.log('flex direction: ', flexDirection)
+
     return (
         <div style={{
                 display: "flex",
-                alignItems: alignItems,
-                justifyContent: justifyContent,
-                flexDirection: flexDirection && "column", 
-                flexBasis: flexBasis, 
-                flexWrap: flexWrap,
-                gap: gap,
-                padding: padding}}>
-                    {children}
+                alignItems,
+                justifyContent,
+                flexDirection, 
+                flexBasis, 
+                flexWrap,
+                gap,
+                padding}}>
+                    {props.children}
         </div>
     )
 }

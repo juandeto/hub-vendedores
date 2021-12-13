@@ -7,8 +7,8 @@ interface PropsSeeMoreLabel {
     handleSeeMore: () => void
 }
 
-const SeeMoreLabel: FC<PropsSeeMoreLabel> = ({index, isOpen, handleSeeMore}) => {
-    const handleKeyboardOption = (ev:any) => {
+const SeeMoreLabel: FC<PropsSeeMoreLabel> = function({index, isOpen, handleSeeMore}) {
+    const handleKeyboardOption = (ev:React.KeyboardEvent<HTMLButtonElement>) => {
 
         if (ev.keyCode === 49 + index) {
             handleSeeMore()
@@ -16,7 +16,7 @@ const SeeMoreLabel: FC<PropsSeeMoreLabel> = ({index, isOpen, handleSeeMore}) => 
     }
     return (
         <button 
-        role={`see more of module ${index + 1}`} 
+        type="button"
         className="seeMore__label" 
         onKeyDown={(e) => handleKeyboardOption(e)}
         onClick={handleSeeMore}>

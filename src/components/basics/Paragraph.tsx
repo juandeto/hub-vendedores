@@ -3,17 +3,25 @@ import Markdown from 'react-markdown'
 
 interface PropsParagraph {
     fontSize?: sizes,
-    color?: 'primary' | 'text',
+    color?: color,
     paragraph: string,
     lineHeight?: string
 }
 
 export type sizes = 'bigger' | 'big' | 'normal' | 'small' | 'tiny' | undefined
+type color = 'primary' | 'text'
 
-const Paragraph: FC<PropsParagraph> = function({paragraph, color="text", fontSize="normal", lineHeight="normal"}) {
+const defaultProps = {
+    fontSize: 'normal' as sizes,
+    color: 'text' as color,
+    lineHeight: 'normal'
+}
+
+const Paragraph: FC<PropsParagraph> = function({paragraph, color, fontSize, lineHeight}) {
 
     return (
         <Markdown 
+        // eslint-disable-next-line
              children={paragraph} 
              components={{
                 p: (node) => <p className={`paragraph ${color}-c ${fontSize}-fz`} style={{ lineHeight}}>{node.children}</p>,
@@ -22,5 +30,7 @@ const Paragraph: FC<PropsParagraph> = function({paragraph, color="text", fontSiz
              }} />
     )
 }
+
+Paragraph.defaultProps = defaultProps
 
 export default Paragraph;

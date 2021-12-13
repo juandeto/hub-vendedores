@@ -16,6 +16,12 @@
         &.roman {
             list-style-type: upper-roman;
         }  
+        &.number {
+            list-style-type:decimal;
+        } 
+        &.none {
+            list-style-type: none;
+        }
         &.bigger{
             font-size: $biggerFont;
         }

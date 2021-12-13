@@ -23,7 +23,12 @@
            + 'Please make sure it is defined in `$breakpoints` map.';
     }
   }
-  
+
+  // In any class you can use include this as:
+  // @include respond-to('small') {
+  //   color: blue;
+  // }
+  // example
 
 
 @mixin useFlex($justify:center, $align:center, $direction: row, $wrap: wrap, $gap: 0) {

@@ -10,7 +10,7 @@ interface PropsCardContent {
     index: number
 }
 
-const CardContent: FC<PropsCardContent> = ({cardContent, index}: PropsCardContent) => {
+const CardContent: FC<PropsCardContent> = function({cardContent, index}: PropsCardContent) {
     
     return (
         <div className="cardContent" >
@@ -18,7 +18,6 @@ const CardContent: FC<PropsCardContent> = ({cardContent, index}: PropsCardConten
             <Spacer type="vertical" size="16px"/>
             {
                 Object.values(cardContent).map((s: JsxProps[] )=> {
-                    console.log('section: ', s)
                     return <FlexBoxContainer alignItems='flex-start'>
                             {
                                 s.map((jsx:JsxProps, key:number)=> {

@@ -1,7 +1,7 @@
 import  { FC } from 'react'; 
 import Button from 'components/basics/Button'
 
-const Component: FC = ( ) => {
+const Component: FC = function() {
     const styles = {
         padding: "8px 32px",
         fontWeight: "bold"
@@ -9,10 +9,10 @@ const Component: FC = ( ) => {
     return (
         <span className="freeTrial_btn">
             <Button
-            styles={styles}
+                styles={styles}
                 type="primary"
                 label="PROBAR GRATIS"
-                cta={() => console.log('probar gratois')}
+                cta={() => 'hola'}
             />
         </span>
     )

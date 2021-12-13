@@ -5,11 +5,11 @@ import heroImg from 'assets/hero-img.png'
 
 
 
-const StaticHero: FC = () => (
-        <div className="staticHero">
+const StaticHero: FC = function() {
+  return <div className="staticHero" role="presentation">
             <StaticHeroTitles />
-            <Image src={heroImg} width="40%" objectFit="contain"/>
+            <Image src={heroImg} alt="Hero image: delivery workers" width="40%" styles={{"objectFit":"contain"}}/>
         </div>
-    )
+}
 
 export default StaticHero;

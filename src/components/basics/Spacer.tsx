@@ -1,19 +1,41 @@
-import  { FC } from 'react'; 
+import  { CSSProperties, FC } from 'react'; 
 
-interface PropsSpacer {
-    type: SpacerType,
-    size: string
+interface PropsSpacer extends React.HTMLAttributes<HTMLSpanElement>  {
+    type?: SpacerType,
+    size: string,
+    style?: CSSProperties
 }
 
 type SpacerType = 'horizontal' | 'vertical'
 
-const Spacer: FC<PropsSpacer> = function({type="vertical", size}) {
-
-    switch (type) {
-        case 'horizontal': return <span style={{width: size}} className="spacer horizontal" />
-        case 'vertical': return <div style={{height: size}} className="spacer vertical" />
-        default: return null
-    }
+const defaultProps = {
+    style: {} as CSSProperties,
+    type: 'vertical' as SpacerType
 }
+
+const Spacer: FC<PropsSpacer> = function({type, size, style, ...props}) {
+
+    const width = type === 'vertical' ? 1 : size;
+    const height = type === 'horizontal' ? 1 : size;
+
+    return (
+      <span
+      role="separator"
+      style={{
+        display: 'block',
+        width,
+        minWidth: width,
+        height,
+        minHeight: height,
+        ...style,
+      }}
+      {...props}
+      >
+
+      </span>  
+    )
+}
+
+Spacer.defaultProps = defaultProps;
 
 export default Spacer;

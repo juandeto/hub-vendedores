@@ -7,8 +7,8 @@ import Spacer from 'components/basics/Spacer';
 import Paragraph from 'components/basics/Paragraph';
 
 
-const CardsDisplay: FC = () => (
-    <div className="cardsDisplay">
+const CardsDisplay: FC = function() {
+  return <div className="cardsDisplay">
         <Spacer type="vertical" size="32px" />
         <Title color="text" title="Vender productos en línea es una excelente manera de iniciar un negocio y ganar dinero"/>
         <Spacer type="vertical" size="16px" />
@@ -21,7 +21,8 @@ const CardsDisplay: FC = () => (
             MODULES_CONTENT.map(( m: JsxRef, i:number) => <CardWrapper key={m.id} module={m} index={i}/>)
             }  
         </div>
-    </div>)
+    </div>
+}
 
 
 

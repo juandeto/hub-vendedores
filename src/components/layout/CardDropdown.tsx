@@ -5,11 +5,10 @@ import jsxHandler from 'utils/jsxHandler'
 
 interface PropsCardContent {
     dropdownContent: [],
-    index: number,
     isOpen: boolean
 }
 
-const CardContent: FC<PropsCardContent> = ({dropdownContent, isOpen}: PropsCardContent) => {
+const CardContent: FC<PropsCardContent> = function({dropdownContent, isOpen}: PropsCardContent) {
     const dropRef = useRef<HTMLHeadingElement>(null)
     const [childHeight, setChildHeight] = useState<number>(0)
     const childrens = dropRef.current?.children
@@ -18,7 +17,7 @@ const CardContent: FC<PropsCardContent> = ({dropdownContent, isOpen}: PropsCardC
     useEffect(() => {
         if(childrens?.length){
             let height = 0
-            console.log('childrens: ', childrens)
+            
             for (let i = 0; i < childrens.length; i+=1) {
                 height +=  childrens[i]?.clientHeight || 0;
             }

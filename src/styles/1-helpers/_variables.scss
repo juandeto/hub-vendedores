@@ -13,8 +13,8 @@ $grad-background: linear-gradient(to top, $lightest-blue 0%, $white-color 80%);
 $background: $white-color;
 
 $breakpoints: (
-  'tiny': (min-width: 200px),
-  'smaller': (min-width: 400px),
+  'tiny': (min-width: 260px),
+  'smaller': (min-width: 360px),
   'small': (min-width: 600px),
   'medium': (min-width: 800px),
   'large': (min-width: 1000px),

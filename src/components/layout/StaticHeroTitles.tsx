@@ -6,7 +6,7 @@ import Spacer from 'components/basics/Spacer'
 
 
 
-const StaticHeroTitles: FC = () => {
+const StaticHeroTitles: FC = function() {
 
     const itemsList = [
         {content: "Guía paso a paso para principiantes"},

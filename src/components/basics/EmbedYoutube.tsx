@@ -1,10 +1,11 @@
 import * as React from 'react';
 
 
-interface EmbedYoutubeProps {
+interface EmbedYoutubeProps extends React.IframeHTMLAttributes<HTMLIFrameElement> {
     width?: string
     height?: string
-    id: string
+    id: string,
+    title: string
 }
 
 const defaultProps = {
@@ -12,7 +13,7 @@ const defaultProps = {
     height: '480'
 }
 
-const EmbedYoutube: React.FC<EmbedYoutubeProps> = function({ width, height, id }) {
+const EmbedYoutube: React.FC<EmbedYoutubeProps> = function({ width, height, id, title, ...props }) {
   return <div className="video__responsive">
              <iframe
                 width={width}
@@ -21,6 +22,8 @@ const EmbedYoutube: React.FC<EmbedYoutubeProps> = function({ width, height, id }
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
+                title={title}
+                {...props}
                 />
         </div>
 }
