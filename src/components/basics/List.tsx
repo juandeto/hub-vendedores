@@ -6,7 +6,7 @@ export type Item = {
     children?: React.ReactElement
 }
 
-type colorBUll = 'primary' | 'secondary' | 'text'
+type colorBull = 'primary' | 'secondary' | 'text'
 type list = 'ul' | 'ol'
 
 interface PropsUlist {
@@ -15,7 +15,7 @@ interface PropsUlist {
    fontSize?: sizes,
    lineHeight?: string,
    bulletType?: string,
-   colorBullet?: colorBUll,
+   colorBullet?: colorBull,
    fontWeight?: string,
    margin?:string
 }
@@ -27,7 +27,7 @@ const defaultProps = {
     lineHeight:  "24px", 
     bulletType: 'disc', 
     margin: "0",
-     colorBullet: 'primary' as colorBUll
+    colorBullet: 'primary' as colorBull
     }
 
 
@@ -52,7 +52,11 @@ const UList: FC<PropsUlist> = function({
                                          // eslint-disable-next-line react/no-array-index-key
                                         key={idx} 
                                       >
-                                       {item.children ? item.children : <Paragraph paragraph={item.content || ""} fontSize={fontSize}/>}
+                                       {item.children ? item.children : <Paragraph 
+                                                                            lineHeight='32px' 
+                                                                            display="inline" 
+                                                                            paragraph={item.content || ""} 
+                                                                            fontSize={fontSize}/>}
                                         </li>)
             }
         </ListType>

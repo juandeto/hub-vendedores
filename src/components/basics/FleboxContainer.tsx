@@ -12,7 +12,8 @@ interface PropsFlexBoxContainer {
     flexBasis?: string,
     flexWrap?: wrap & 'wrap',
     gap?: string,
-    padding?: string
+    padding?: string,
+    margin?: string
 }
 
 const defaultProps: Partial<PropsFlexBoxContainer> = {
@@ -22,7 +23,8 @@ const defaultProps: Partial<PropsFlexBoxContainer> = {
     gap:"16px",
     flexWrap: "wrap",
     padding:"8px 16px",
-    flexDirection: 'column'
+    flexDirection: 'column',
+    margin: "0"
 }
 
 const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
@@ -33,6 +35,7 @@ const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
     flexWrap,
     gap,
     padding,
+    margin,
     ...props
 }) {
 
@@ -45,7 +48,8 @@ const FlexBoxContainer: FC<PropsFlexBoxContainer> = function({
                 flexBasis, 
                 flexWrap,
                 gap,
-                padding}}>
+                padding,
+                margin}}>
                     {props.children}
         </div>
     )

@@ -19,7 +19,7 @@ const CardContent: FC<PropsCardContent> = function({cardContent, index}: PropsCa
             <Spacer type="vertical" size="16px"/>
             {
                 Object.values(cardContent).map((s: JsxProps[], i: number )=> {
-                    return <FlexBoxContainer alignItems='flex-start' key={keys[i]}>
+                    return <FlexBoxContainer margin="32px 0" alignItems='flex-start' key={keys[i]}>
                             {
                                 s.map((jsx:JsxProps, key:number)=> {
                                     const { type, properties} = jsx

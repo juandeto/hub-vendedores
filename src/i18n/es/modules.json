@@ -1,6 +1,6 @@
 {
-    "module1": {
-        "id": "que-es-y-para-que-sirve-la-publicidad-en-mercado-libre",
+    "adsExplanation": {
+        "id": "ads-explanation",
         "cardContents": {
             "s1": 
             {
@@ -45,5 +45,524 @@
                 }
                
         }     
+    },
+    "productAds": {
+        "id": "product-ads-efectividad",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Product Ads es una herramienta efectiva?",
+                "paragraph1": "Según Mercado Libre la mayoría de las ventas se realizan sobre **productos que aparecen en la primera página de resultados de búsqueda**, entonces lo primordial para llegar a los consumidores es que nuestras publicaciones aparezcan **bien posicionadas en esos resultados de búsqueda**. Product Ads es una herramienta de performance que ofrece Mercado Libre para que los vendedores posicionen sus publicaciones en lugares de gran visibilidad. [Para conocer más sobre Product Ads, visita esta nota.](https://crystalzoom.com/blog/que-es-y-para-que-sirve-la-publicidad-en-mercado-libre/)",
+                "paragraph2": "Product Ads proporciona mucho más que una buena posición dentro de Mercado Libre",
+                "img-alt": "phone displaying Mercado Libre web"
+            }
+        },
+        "dropdownContent": {
+                "s1": 
+                {
+                    "title": "¿Cuáles son los beneficios de Product Ads?",
+                    "paragraph1": "Según los datos propios de Mercado Ads, con una adecuada estrategia de Product Ads, se pueden ver grandes resultados:",
+                    "list1": [
+                         "Incremento de las ventas: Proporciona hasta un 43,6% de incremento de las ventas. En cambio, al pausar o apagar una campaña de Product Ads, se vieron caidas del 41,6%.",
+                         "Alto retorno de la inversión publicitaria: El retorno de la inversión publicitaria (ROAS) es del 8,1.",
+                         "Alta proporción de ventas: Las ventas por Product Ads representan hasta el 22,4% de las ventas totales.",
+                         "Presencia frente a la competencia: Los productos promocionados ocupan lugares destacados, y logran tener más visibilidad que el resto, logrando acaparar más clientes.",
+                         "Mejora la predisposición en las búsquedas.",
+                         "Aumento del tráfico: las publicaciones promocionadas reciben mayor cantidad de visitas y de clics, lo que también ayuda al posicionamiento orgánico de las publicaciones.",
+                         "Óptimo rendimiento y performance: la inversión se ve reflejada en los resultados.",
+                         "Máxima visibilidad y ventas: los productos se muestran más en las búsquedas de los usuarios.",
+                         "Estrategia defensiva contra los competidores: acapara mayor presencia de mercado.",
+                         "Ideal para el lanzamiento de nuevos productos: A la hora de posicionar nuevos productos, Product Ads es una herramienta mega efectiva para generar más ventas, ya que lograr escalar más rápido en las posiciones de búsqueda y ganar mayor participación de mercado.",
+                         "Potenciar las ventas en fechas especiales: los vendedores que tienen productos activos con publicidad desde 30 días antes a la fecha especial o eventos -como, navidad, Hot Sale, Black Friday, entre otros- logran vender hasta un 35% más que el resto."
+                     ]
+                },
+            "s2":
+                {
+                    "title": "¿Es conveniente promocionar las publicaciones que ya tienen una buena posición en los resultados de búsqueda?",
+                    "paragraph1": "La respuesta es un rotundo sí. Si tu publicación tiene una buena posición en el ranking hacer publicidad no es en vano, ¿por qué?",
+                    "list1": [
+                        "Las publicaciones se mostrarán dos veces en los resultados de búsqueda: por un lado, la publicación promocionada, en los lugares reservados por Mercado Libre para la publicidad y también, en la posición que ocupa por sí sola. Esto hace que aparezca doble y que acapare  más lugares en el listado de productos para atraer más ventas.",
+                        "Que una publicación esté promocionada hará que además aparezca en las páginas de otros productos similares.",
+                        "Recibirá más visitas y clics lo que fomentará que mantenga o incluso mejore ese buen posicionamiento orgánico."
+                     ]
+                }
+        }     
+    },
+    "stoneProducts": {
+        "id": "stone-products",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Qué son los productos piedra y cómo evitarlos?",
+                "img-alt": "person watching a Mercado Libre web in a laptop",
+                "paragraph1": "A la hora de incorporar productos en una campaña de publicidad, hay que considerar cuáles conviene publicitar y cuáles no, ¿Cómo saberlo?"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "Si bien la publicidad es una **herramienta muy eficaz para incrementar las ventas en Mercado Libre** –[si quieres saber más sobre sus beneficios visita esta nota](https://crystalzoom.com/blog/product-ads-es-una-herramienta-efectiva/)– no es mágica, hay productos que funcionan muy bien, y productos en los que puede resultar un gasto. En rasgos generales, y para tener siempre en cuenta, **las publicaciones que no tienen buenos resultados orgánicamente tampoco lo tienen con publicidad**. Es muy común para los vendedores pensar en promocionar artículos que tienen gran cantidad de stock y no generaron ventas con la expectativa de venderlos. Pero lo único que genera esto es un gasto innecesario sin retorno de la inversión, ¿por qué? **Porque hacer publicidad en artículos que por alguna razón no resultan de interés para los compradores**– ya sea porque no son de temporada, no tienen buena relación precio/calidad, o simplemente no se corresponden con los gustos y preferencias de los consumidores- **termina siendo un gasto**, ya que consumen presupuesto pero no generan ventas. Éstos son conocidos como **productos piedra**. En caso de tener productos de este tipo es mejor sacarlos de la campaña, antes que forzarlos a que estén presentes, gasten presupuesto y bajen el rendimiento del resto."
+                },
+            "s2":
+                {
+                    "title": "¿Cuáles son los productos que mejor funcionan con publicidad?",
+                    "paragraph1": "Los productos que mejor funcionan son los que son de alta demanda y rotación. Y si además, hay poca competencia, se allana el terreno ideal para que se convierta en estrella en poco tiempo y tenga buen retorno de la inversión. Obviamente, que no es tan sencillo encontrar productos con baja competencia en Mercado Libre, por lo que, por el momento, **podemos enfocarnos en los productos de alta demanda y rotación**. Este tipo de productos van a recibir gran caudal de clics, visitas y ventas.",
+                    "paragraph2": "Es importante considerar que la publicidad es una excelente herramienta, pero no hace magia. La publicidad sirve para potenciar e impulsar productos para que funcionen mejor en el mercado, adquieran más visibilidad y ventas. Si un producto no es bueno, tiene malas reviews o simplemente no es de interés, se convierte en uno de los conocidos productos piedra, que no son aptos para promocionar."
+                },
+            "s3":
+                {
+                    "title": "¿Cómo saber si tengo productos piedra en mi campaña?",
+                    "paragraph1": "Es muy fácil conocer si un producto está trabando a la campaña. Debes hacer un análisis de tus publicaciones, tener en cuenta las visitas por venta, los ingresos orgánicos, los ingresos por publicidad históricos, el ACOS real y el proyectado. En base al análisis de estos datos, hay que evaluar si la publicación es apta para activar publicidad o es preferible desactivarla para que no genere gastos extra.",
+                    "paragraph2": "¡Si activas tu campaña desde Crystal Zoom es aún más sencillo! La plataforma automáticamente se encarga de detectar cuáles son las publicaciones que están trabando tu campaña y cuáles son las que tendrán éxito. **De esta forma se enfoca todo tu presupuesto en productos de alta rentabilidad, para que incrementes tus ingresos, tu inversión retorne, y no pierdas dinero.**"
+                }
+        }     
+    },
+    "configAds": {
+        "id": "config-ml-ads",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Cómo configurar mi primera campaña de publicidad en Mercado Libre.",
+                "img-alt": "person teaching other persons",
+                "paragraph1": "El primer paso para configurar la publicidad en Mercado Libre es armar una campaña y dentro de ella incluir las publicaciones que quieras promocionar. **Es recomendable incorporar dentro de cada campaña los productos que tengan objetivos similares**, por ejemplo, seleccionar todos los que son nuevos lanzamientos, ponerlos dentro de una misma campaña, y aplicar una estrategia de fuerte exposición.",
+                "paragraph2": "Debes tener en cuenta que la elección de los productos a incorporar es muy importante y va a afectar al consumo del presupuesto y a los resultados de la campaña, recuerda que debes evitar los productos piedra, [para conocer más sobre ellos puedes visitar esta nota.](https://crystalzoom.com/blog/que-son-los-productos-piedra-y-como-evitarlos/)"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "title": "¿Cómo elijo el presupuesto diario de Product Ads?",
+                    "paragraph1": "En las campañas de publicidad de Product Ads el costo es por clic. Cada vez que alguien hace clic en una de las publicaciones promocionadas se descuenta dinero del presupuesto diario. **El presupuesto diario es un monto fijo que se asigna por campaña por día a Mercado Libre para consumir en publicidad**, así al configurar la campaña se elige cuál es el monto máximo que se desea gastar por día. Una vez que el presupuesto determinado se consume la publicidad se desactiva hasta el día siguiente.",
+                    "paragraph2": "El monto máximo a elegir por día depende de las posibilidades y expectativas de cada cuenta. Siempre es recomendable elegir un monto medio y probar, ya que si seleccionamos un monto muy por debajo corremos el riesgo de que el dinero del presupuesto se consuma muy rápido, y si eso pasa la publicidad se va a pausar hasta el día siguiente, por lo tanto, los anuncios se dejan de mostrar, y puede generar que se pierdan posibles ventas.",
+                    "title2": "¿Desde dónde determinar el presupuesto diario de publicidad?",
+                    "paragraph3": "Debes dirigirte al panel de vendedor en Mercado Libre, ingresar a la campaña en la sección Publicidad y desde allí elegir el presupuesto diario. El presupuesto diario se puede cambiar cuando se crea necesario."
+                },
+            "s2":
+                {
+                    "title": "¿Qué estrategias debo elegir? ",
+                    "paragraph1": "Para configurar tu campaña, Mercado Libre te permite elegir entre tres estrategias, que dependen de los objetivos que se quieran lograr: ",
+                    "list1": [
+                        "**Rentabilidad**: Mejora el rendimiento de la inversión priorizando la rentabilidad. Es decir, puede resignar visibilidad en pos de no generar costos muy altos. Es recomendada para potenciar los productos más vendidos. ",
+                        "**Crecimiento**: Aumenta la exposición de los productos manteniendo niveles medios de rentabilidad. Es recomendada para productos de mediana rotación.",
+                        "**Visibilidad**: Orientada a lograr las mejores posiciones. Prioriza la visibilidad por sobre la rentabilidad potenciando productos nuevos o de categorías muy competitivas."
+                     ],
+                     "paragraph2": "También puedes articular tus preferencias con Crystal Zoom para lograr una gestión más eficaz. A través de inteligencia artificial, se analiza qué publicaciones son las que mejor funcionan y cuáles no, y se pausan la publicidad de aquellas que generan pérdidas. **Para conocer más sobre cómo se articula Crystal Zoom con Mercado Libre y cuáles son los beneficios que puedes obtener visita este video.**"
+                }
+        }
+    },
+    "budgetAds": {
+        "id": "config-budget-ads",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Puedo elegir presupuestos diferentes por día?",
+                "paragraph1": " Es muy importante **tener el control de cuánto invertir y no perder dinero en días que quizás no haya tanto tráfico en tus ventas**. Lo más importante es que destines el grueso de tu presupuesto al día de la semana que más vendas. Así, aparecerás en las búsquedas y mejorarás un 33% tu posición en Mercado Libre. "
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "Por eso, te invitamos a probar nuestro nuevo producto: El presupuesto dinámico semanal. Ahora con Crystal Zoom, puedes configurar reglas para tener el control de tu presupuesto.",
+                    "paragraph2": "**Antes**, configuraban un presupuesto diario fijo para todos los días de la semana. **Ahora**, desde nuestra plataforma vas a poder asignar un presupuesto dinámico semanal.",
+                    "paragraph3": "Es decir, que si el lunes tienes más ventas, podrás indicarle el presupuesto más alto para que ese día tu publicación se muestre más. En cambio, si por ejemplo los sábados es tu día con menor cantidad de ventas, podrás determinar un presupuesto más bajo. De esta manera podrás optimizar tu inversión en Mercado Libre.",
+                    "paragraph4": "**Puedes ver el ejemplo en la imagen a continuación:**",
+                    "img-alt": "budget graphic",
+                    "paragraph5": "Y como plus te dejamos un tutorial en tiempo real sobre cómo usar el presupuesto dinámico semanal"
+                }
+        }
+    },
+    "multiCampaigns": {
+        "id": "multiCampaing-ads",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Multicampañas de publicidad, ¿aliadas o enemigas?",
+                "img-alt": "person making maths in a page",
+                "paragraph1": "Mercado Libre lanzó “Multicampañas”, la nueva función que permite crear múltiples campañas de publicidad para una misma cuenta. En esta nota respondemos todo lo que hay que saber sobre cómo funcionan."
+            }
+        },
+        "dropdownContent": {
+            "s1":
+                {
+                    "title": "¿Qué es una campaña de publicidad?",
+                    "paragraph1": "Para hacer publicidad en Mercado Libre, se agrupan las publicaciones que se quieren promocionar dentro de una campaña. Una vez creada se le asigna un presupuesto diario de inversión.",
+                    "title2": "¿Qué es multicampañas?",
+                    "paragraph2": "Multicampañas es una función que permite **armar múltiples campañas de publicidad dentro de una misma cuenta de Mercado Libre**. Funcionan de forma independiente entre sí: se seleccionan las publicaciones que se deseen incluir en cada una y se les asigna un presupuesto diario de inversión propio.",
+                    "title3": "¿Hay limitaciones para crear multicampañas?",
+                    "paragraph3": "No hay ninguna limitación. La cantidad de campañas que se creen, la asignación de presupuesto y publicaciones que se incluyan dependerá de los objetivos, estrategias y posibilidades de cada cuenta. Queda en cada vendedor entender si es necesario subdividir su campaña y por qué razones desea hacerlo."
+                },
+            "s2":
+                {
+                    "title": "¿Es recomendable crear múltiples campañas?",
+                    "paragraph1": "Depende de los objetivos y posibilidades de cada cuenta en particular. Previo a decidir si vamos a dividir nuestra campaña tenemos que entender que las campañas funcionan de forma independiente, es importante resaltarlo por dos aspectos:",
+                    "list1": [
+                        "**Presupuesto**: El monto diario a invertir en nuestra campaña de publicidad depende de los parámetros que nos permite Mercado Libre. Según cada cuenta hay un mínimo y un máximo que podemos gastar. Supongamos que el presupuesto mínimo posible para nuestra cuenta es de $500 al día, si tenemos una sola campaña nuestro monto de inversión arranca desde ese valor, en cambio si tenemos varias campañas, en cada una tenemos que invertir al menos $500, es decir, que tener dos campañas activas nos cuesta un mínimo de $1000.",
+                        "**Publicaciones**: Una publicación no puede formar parte de dos o más campañas a la vez. Las publicaciones que están dentro de una campaña funcionan sólo dentro de ella."
+                     ],
+                     "paragraph2": "Ahora que comprendemos esto volvemos a la cuestión inicial, ¿es recomendable crear múltiples campañas? Y respondemos, con otra pregunta: **¿disponemos del dinero necesario para invertir en múltiples campañas?**"
+                },
+            "s3":
+                {
+                    "title": "¿Cuándo es útil crear múltiples campañas?",
+                    "paragraph1": "**Crear múltiples campañas puede ser muy útil siempre que tengan una razón de ser, cuando estén acompañados por un objetivo de ventas o estrategia de negocio determinada**, por ejemplo, se puede tener una campaña específica con una selección de productos que se quieran mantener siempre promocionados y que en ningún momento se queden sin presupuesto. También, puede resultar útil si tenemos varias tiendas oficiales y contamos con un presupuesto específico por marca, de esta manera podemos crear campañas independientes para cada una.",
+                    "title2": "¿Cuándo NO se recomienda crear múltiples campañas?",
+                    "paragraph2": "No se recomienda crear múltiples campañas cuando no sea estrictamente necesario. Hay que comprender que cada campaña significa una mayor inversión, que puede no verse reflejada en los ingresos.",
+                    "title3": "¿De qué manera impactan las múltiples campañas en los resultados de la cuenta?",
+                    "paragraph3": "Los resultados están ligados a las expectativas que teníamos cuando planificamos cada una de las campañas. Si las creamos con un criterio y objetivos definidos, y les dimos el seguimiento que requieren podemos medir si logramos cumplirlos adecuadamente o no. En cambio, si no teníamos una idea inicial, lo más probable es que nos genere un aumento de la inversión y resultados no tan buenos a nivel global de la cuenta.",
+                    "title4": "En resumen, ¿son aliadas o enemigas?",
+                    "paragraph4": "**Las multicampañas son aliadas cuando las usamos con un criterio definido, y les damos la atención necesaria**. Cuando nos entusiasmamos y creamos campañas sin razón específica pueden convertirse en nuestras enemigas, porque nos pueden generar un aumento de la inversión y resultados no tan buenos a nivel global de la cuenta.",
+                    "paragraph5": "[Para conocer cómo articular las multicampañas con Crystal Zoom visita la siguiente nota.](https://crystalzoom.com/blog/multicampanas-en-crystal-zoom/)"
+                }
+        }
+    },
+    "campaingsInMl": {
+        "id": "campaings-in-ml",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Cómo optimizar los resultados de mis campañas en Mercado Libre?",
+                "paragraph1": "Como primer tip, es imprescindible realizar un seguimiento diario de tus campañas en MeLi. Dentro de ellas, existen algunos indicadores que justamente, te ayudan a ajustar cuestiones que tengan que ver con mejorar el desempeño y los resultados en tus ventas. "
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "**A la hora de hablar de campañas de Mercado Libre, es imprescindible que primero elijas los productos que deberías publicitar** [(si todavía no sabías cómo elegirlos, te lo contamos en la siguiente nota)](https://crystalzoom.com/blog/que-son-los-productos-piedra-y-como-evitarlos/ )",
+                    "paragraph2": "Luego, pensar una estrategia determinada para cada uno de ellos comenzando por pensar el objetivo a lograr con las campañas. Algunos de ellos **pueden ser:**",
+                    "list1": [
+                        "Mejorar las ganancias de tus productos",
+                        "Hacer visibles  nuevos productos ",
+                        "Generar un ACOS objetivo y cuidarlo en todas las ventas"
+                     ]
+                },
+            "s2":
+                {
+                    "paragraph1": "En tercer lugar ubicaríamos el seguimiento de métricas de tus productos. Desde Crystal Zoom, te aconsejamos que realices un control semanal del rendimiento de tus campañas. Lo principal es observar los indicadores más relevantes para compararlos con tus objetivos y determinar si vas por el camino correcto. Product ads es el especialista en esa evaluación, ya que te deja observar cómo evolucionan tus campañas y productos dentro de los 90 días anteriores.",
+                    "paragraph2":"Las métricas más relevantes son: ",
+                    "list1": [
+                        "**Comparar** las cifras actuales con tus últimos 30 días de campaña para ver el crecimiento. ",
+                        "**Contabilizar** cuántas ventas se realizaron con y sin publicidad ",
+                        "**Evaluar** qué porcentaje de ventas produjeron tus campañas de publicidad desde que comenzaste."
+                     ]
+                },
+             "s3":
+                {
+                    "paragraph1": "Los costos de tus campañas son dignos de evaluar. Para eso, existe un indicador llamado ACOS o costo de publicidad. Es decir, mide tu inversión según los resultados reales de tus campañas de publicidad.",
+                    "img-alt": "persona navegando por la web de mercabolibre",
+                    "paragraph2":"Algunas cuestiones a tener en cuenta para optimizar tus campañas: ",
+                    "paragraph3": "Principalmente, que tu ACOS real se acerque lo más posible al ACOS al que apuntas. Verificá que el presupuesto que destines no limite tus ventas. Se recomienda tener en cuenta las alertas del administrador de campañas. Aprovecha las fechas especiales para aumentar tus ventas realizando campañas de publicidad. **Desde Crystal Zoom, podemos asesorarte cada vez que necesites consejos sobre optimizar tus campañas de publicidad en Mercado Libre.**"
+                }
+        }
+    },
+    "salesAdvice": {
+        "id": "sales-advice",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Consejos para aumentar tus ventas con Mercado Ads.",
+                "paragraph1": "Principalmente, **debés planear los objetivos que querés cumplir con tus ventas en Mercado Ads**. Si tu objetivo principal es propagar tu marca y ser de renombre en la plataforma, debés enfocarte en la cantidad de impresiones - es decir, cantidad de usuarios- que observen tus anuncios. Así, sabrás cuántas personas reales se detienen en tus productos.",
+                "paragraph2": "En cambio, si estás deseando generar más ventas, es necesario que te concentres en la **cantidad de clics que obtienen tus anuncios**.  De ésta manera sabrás, en relación a la inversión,  cuánto dinero te cuesta llegar a tu cliente objetivo."
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "En el mismo momento que decidas invertir en publicidad, es importante que decidas cuál de tus publicaciones es apta para publicitar. La misma, te recomendamos que sea de buena calidad y prolija para llegar de forma correcta a tus compradores. Desde Crystal Zoom, te sugerimos que tengas en cuenta los siguientes puntos:",
+                    "list1": [
+                        "**Las imágenes funcionan como anzuelo** para que los posibles clientes ingresen a tu publicación. Las mismas deben ser limpias, claras, prolijas y que principalmente muestren bien tu producto. ",
+                        "**El título es otro factor principal** a tener en cuenta a la hora de publicitar. **No** tiene que tener información de más ni de menos. Deben ser: **precisos, descriptivos y concretos**. La información que sea primordial para tu producto, puedes agregarla en  la descripción del mismo."
+                     ]
+                },
+            "s2":
+                {
+                    "paragraph1": "*Una de las principales funciones de Mercado Ads, es visibilizar tu negocio. ",
+                    "img-alt":"celulares desplegando descuentos a modo de ejemplo"
+                },
+             "s3":
+                {
+                   "title": "¿Cuánto tiempo tardo en ver los resultados de Mercado Ads?",
+                    "paragraph1":"En primera instancia, es importante que estés atenta/o a tus campañas las dos primeras semanas, ya que forman parte del período de prueba y tus inicios en la plataforma. Las primeras campañas deberán durar al menos 30 días para mejorar el rendimiento de tus anuncios. Si bien irás ajustando y aprendiendo con el correr del tiempo que funciona y qué no para tus campañas, es necesario que uses esos 30 días anteriores para comparar entre un mes y el otro.",
+                    "paragraph2": "Una de las cosas más importantes es tener agendadas las fechas especiales, ya que en ellas aumenta la cantidad de usuarios dentro de la plataforma, aumentando la circulación y el tráfico de las publicaciones. **Se recomienda estar al tanto de cada una de ellas, para invertir más dinero o crear nuevas campañas que puedan generar movimiento en esas fechas.**",
+                    "paragraph3": "**Si no te enteraste todavía de todas las fechas, podés acceder a nuestro calendario de E commerce, para no perderte ninguna.**"
+                }
+        }
+    },
+    "reputationInMl": {
+        "id": "reputation-in-ml",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Reputación en Mercado Libre: ¿Qué es y por qué es tan importante?",
+                "paragraph1": "La reputación de Mercado Libre es la **calificación como vendedores**, es la forma que tiene Mercado Libre de medir la calidad y el buen comportamiento de los vendedores. Es un **“sello de calidad”** que asegura que en la mayoría de los casos ese vendedor tiene buena atención con sus clientes. Por ello, es tan importante preservarla, ya que una buena reputación genera mayor confianza, credibilidad y sobre todo, ventas. "
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "title": "¿Cómo se mide la reputación?",
+                    "img-alt": "emoji de dedo haciendo ok",
+                    "paragraph1": "La reputación se mide con un **semáforo** que va **desde el rojo hasta el verde oscuro. Para calcular la reputación se tiene en cuenta la calidad de la atención de los vendedores de los últimos 60 días corridos**. Mercado Libre considera:",
+                    "list1": [
+                        "**Ventas con reclamos:** Los reclamos no podrán superar el 2% de las ventas.",
+                        "**Tiempo de despacho:** Hay que tener menos del 15% de envíos con demoras.",
+                        "**Ventas canceladas:** No se puede recibir cancelaciones de más del 2% de las ventas."
+                     ],
+                     "paragraph2": "Siempre que haya un incumplimiento Mercado Libre **“penaliza” a la cuenta**, no sólo quitándole el color verde sino también, **restando visibilidad** a todas las publicaciones (sí afecta a todas, no sólo a las que tienen reclamos). A su vez, la baja calificación influye en la **credibilidad** que depositan los compradores en los vendedores, ya que no genera confianza a la hora de hacer una compra online."
+                },
+            "s2":
+                {
+                    "title": "¿Cómo mantener la reputación en verde?",
+                    "paragraph1": "¡Tan simple como siendo buenos vendedores! Para mantener una buena reputación es vital ofrecer una buena experiencia de compra a los clientes: ",
+                    "list1": [
+                        "Evitar que abran un reclamo: mostrarse siempre predispuestos a resolver cualquier problema que surja, dejar en claro que en primera instancia pueden acudir a nosotros.",
+                        "Si algún producto tiene muchos reclamos o devoluciones, es mejor desactivarlo para que no genere más reclamos y baje la reputación de la cuenta.",
+                        "Organizarse para lograr despachar todos los pedidos en tiempo y forma.",
+                        "Evitar publicar productos que no estén en stock."
+                     ]                
+                    },
+             "s3":
+                {
+                   "title": "Tiempos de despacho: parámetros a tener en cuenta",
+                   "img-alt": "persona entregando paquete a otra",
+                   "list1": [
+                    "**Puntos de despacho**: Si llevas tus paquetes a los puntos de despacho, tendrás 2 horas y 30 minutos para ir a despachar todo lo que hayas vendido antes de tu horario de corte.",
+                    "**Correo**: Si llevas tus ventas al correo, todo lo que vendas antes de tu horario de corte deberás despacharlo durante el día, antes de que cierren las agencias.",
+                    "**Colecta de Mercado Envío**: Si utilizas la colecta de Mercado Envíos, todo lo que vendas antes de tu horario de corte, deberás despacharlo en la colecta. Como siempre, la colecta pasará por tu domicilio 1 hora después de tu horario de corte. Se mantiene el objetivo de 97% de envíos semanales a tiempo para que tus publicaciones se destaquen en los resultados de búsqueda.",
+                    "**Mercado Envíos Flex**: Si utilizas Mercado Envíos Flex y ofreces envíos en el día, todo lo que vendas antes del horario de corte que hayas elegido, deberás entregarlo en el día. Si ofreces envíos al día siguiente, deberás entregar tus ventas durante las 24 horas siguientes. Se mantiene tu objetivo de 90% de entregas semanales a tiempo para que tus publicaciones se destaquen con el filtro “Llega hoy”."
+                    ]                   
+                },
+            "s4": 
+                {
+                    "title": "Cuida tu reputación con Crystal Zoom",
+                    "paragraph1": " Con la herramienta [Reputación de Crystal Zoom](https://crystalzoom.com/soluciones/reputacion/) accedes a toda la **información relevante sobre su estado actual** (cantidad de reclamos, publicaciones con más reclamos, cancelaciones, demoras) **y además a predicciones sobre tu reputación futura** (cuántas ventas sin reclamos necesitas para subir de color o cuántos reclamos podrían hacerte bajar). También te ofrece **recomendaciones sobre qué medidas tomar** para que no afecte a tu cuenta."
+                }
+        }
+    },
+    "reputationAdvice": {
+        "id": "reputation-advice",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "El truco infalible para subir la reputación a la velocidad de la luz.",
+                "img-alt": "medidor de rango con posiciòn en color verde",
+                "paragraph1": "La reputación influye en la **visibilidad y credibilidad de las publicaciones en Mercado Libre**, y **afecta de forma muy negativa en las ventas**. ¡Pero que no cunda el pánico! Todo se puede resolver, por eso, a continuación les traemos el **truco infalible para subir la reputación**"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "Paso por paso: **¿Qué necesitamos para subir la reputación?** [Necesitamos ventas sin reclamos](https://www.mercadolibre.com.ar/ayuda/Como-funciona-la-reputacion-de-vendedor_866). La **cantidad** de ventas sin reclamos necesarias dependerá de cada caso en particular.",
+                    "paragraph2": "*Crystal Zoom al rescate: Si sos cliente de Crystal Zoom podrás ver desde la **sección Reputación** exactamente cuántas ventas exitosas necesitarías para cambiar de color, y cuáles son las publicaciones que te generaron más reclamos. Si aún no lo hiciste **detecta ya cuáles son y pausalas**, para que no sigan generando ventas con reclamos que afecten tu reputación.*",
+                    "paragraph3": "Nuestro estrategia para subir de reputación será entonces aumentar la cantidad de ventas, es decir, las unidades vendidas. Para lograrlo vamos a crear publicaciones vendibles en el corto plazo, y enfocaremos cien por ciento nuestros esfuerzos en un determinado ítem salvavidas. ¿Vamos al paso a paso?",
+                    "img-alt": "ejemplo de las variables utilizadas para medir la reputación: ventas, atención y entrega."
+                },
+            "s2":
+                {
+                    "title": "Paso 1: Elegir el ítem salvavidas",
+                    "paragraph1": "Podemos utilizar uno de los que ya tengamos publicados, o conseguir uno extra para este fin y crear una nueva publicación desde cero. ¿Cuándo es recomendable hacer esto último? Cuando nuestro catálogo de productos es de alto valor es más difícil vender gran cantidad de unidades en menos tiempo, es por eso que,en ese caso deberíamos buscar otra alternativa y ofrecer alguno con circulación más masiva, ¿cómo debe ser este ítem?",
+                    "list1": [
+                        "**Vendible**: entendemos por vendibles a productos que tengan caudal de demanda, por ejemplo, pendrives, auriculares, mouses, etc.",
+                        "**Económico**: que sea **accesible** nos ayudará a vender la cantidad de unidades que necesitamos de forma **más rápida**. Además, no debemos olvidar que los consumidores no elegirán comprar un producto muy costoso a un vendedor que tenga baja reputación, en cambio, una alternativa de bajo costo implica un menor riesgo.",
+                        "**Pertenecer nuestra categoría**: siempre ofrecer algún ítem sin alejarnos del rubro en el que vendemos. Por eso, sugerimos que sean accesorios o algo similar, pero relacionados con nuestro negocio."
+                        ]                   
+                },
+                "s3":
+                {
+                    "title": "Paso 2: Publicar el ítem al costo",
+                    "paragraph1": "Debemos pensar la estrategia de precios como una inversión a largo plazo. Con un precio por debajo de la media podremos adquirir mejor posicionamiento en los resultado de búsqueda e incrementar las visitas, el tráfico y las cantidad de unidades vendidas que necesitamos.",
+                    "paragraph2": "Si bien sugerimos mantener un precio bajo, esto **NO significa crear precios irreales**, no serán confiables, y tampoco generaran ventas. Un precio excesivamente bajo sumado a la mala reputación suenan a fraude.",
+                    "paragraph3": "*Crystal Zoom al rescate: sugerimos revisar los **precios tendencia del mercado** de este producto en la sección **Competencia de Crystal Zoom**.*"
+                },
+                "s4":
+                {
+                    "title": "Paso 3: Anunciar la publicación",
+                    "paragraph1": "Anunciar la publicación nos ayudará a **aumentar su visibilidad**. Aquí tenemos dos alternativas que dependerán del color de nuestra reputación:",
+                    "paragraph2": "Si tenemos **reputación por arriba del color amarillo** podemos **activar la publicidad de Mercado Libre** exclusivamente en esta publicación.",
+                    "paragraph3": "En cambio, si el color de nuestras publicaciones nos impide realizar una campaña, una buena opción es darles un **impulso por fuera del sitio**. Por ejemplo, si vendemos por otro canal de e-commerce o redes sociales, podemos generar tráfico a esta publicación desde afuera para aumentar las ventas. "
+                },
+                "s5":
+                {
+                    "title": "Paso 4: Vender",
+                    "paragraph1": "Ahora que ya tenemos toda la **estrategia organizada** tenemos que ponerla a funcionar. Una vez que hayamos **recuperado el color verde** ya podremos reactivar el resto de nuestras publicaciones, y volver a configurar nuestra campaña de publicidad de forma regular.",
+                    "paragraph2": "Recuerda mantener una buena conducta y [evitar los reclamos](https://crystalzoom.com/reclamos-en-mercado-libre/), y si todavía no sos cliente de Crystal Zoom, registrate gratis y [dile adiós a la mala reputación en Mercado Libre para siempre.](https://crystalzoom.com/dile-adios-a-la-mala-reputacion-en-mercado-libre/)",
+                    "img-alt": "ejemplo de medidor de mercado libre sobre reputación"
+                }
+        }
+    },
+    "lightningOffers": {
+        "id": "lightning-offerrs",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Qué son las ofertas relámpago?",
+                "paragraph1": "Una oferta de este tipo, dura 6 horas. Existe una sección de ofertas que aproximadamente reciben 1 millón de visitas diarias, dándote la posibilidad de liquidar todos tus productos en cuestión de horas. Pero te preguntarás si todos los vendedores de Mercado Libre pueden ofrecerlo. La respuesta es no, existen algunos requisitos:"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "list1": [
+                        "Tu publicación tiene que ser clásica o premium.",
+                        "Tu reputación si o si debe estar en verde. [Acá te contamos como lograrlo]()",
+                        "El producto que ofrezcas debe ser nuevo."
+                        ],
+                    "img-alt": "etiqueta de simbolo de porcentaje (descuento)"
+                },
+            "s2":
+                {
+                    "title": "¿Cómo crearlas?",
+                    "paragraph1": "En la sección **Central de Promociones** está la opción de “ofertas relámpago” para que desde ahí decidas y filtres los productos a liquidar.  En el resumen de la tarea, podrás",
+                    "list1": [
+                        "Revisar y editar el precio final de tu producto.",
+                        "Modificar el descuento, el producto o las unidades del mismo a ofertar.",
+                        "Ajustar fechas de inicio y finalización de tus ofertas relámpago."
+                        ],
+                    "paragraph2": "*Una vez que se haya iniciado, ya no podrás hacer cambios estructurales."                   
+                },
+                "s3":
+                {
+                    "paragraph1": "**Si configuras ofertas relámpago para tus productos; a tus compradores, les aparecerá: **",
+                    "list1": [
+                        "Una barrita y un reloj que les avisa cuando finaliza tu oferta relámpago.",
+                        "El porcentaje de descuento que le hagas a tu producto .",
+                        "La cantidad de productos que ya vendiste.",
+                        "El precio nuevo, y el viejo."
+                        ],
+                    "paragraph2": "Recuerda con frecuencia realizar ofertas relámpago para tener aún más ventas y seguir creciendo en Mercado Libre. ",
+                    "img-alt": "cartel promocional de Ofertas Relampago"
+                },
+                "s4":
+                {
+                    "paragraph1": "Te ayudamos a administrar todo: "
+                }
+        }
+    },
+    "positioningAdvice": {
+        "id": "positioning-advice",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Cómo ofrecer descuentos y aparecer en la sección de Ofertas en Mercado Libre?",
+                "paragraph1": "Mercado Libre facilita que si tienes descuentos, puedas aparecer más en las búsquedas y por ende, tener más ventas. **Por eso, es importante  que participes con frecuencia para poder estar en la sección de “ofertas”.**"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "img-alt": "landing de mercado libre",
+                    "paragraph1": "Como te contábamos, aparecer en la sección de Ofertas es indispensable para vender más en Mercado Libre.  En esta sección quedan agrupados todos los descuentos del sitio que los clientes no tardarán en observar. La idea de que tenga una sección llamada “ofertas” es una estrategia completa ya que todos, cuando nos encontramos con la palabra oferta; solemos ingresar para mirar. Mercado Libre lo logró a la perfección, y te ofrece la posibilidad de aparecer en las primeras búsquedas.",
+                    "img-alt2": "cabezal de la pagina de mercado libre",
+                    "paragraph2": "Para todas estas cuestiones, como mínimo, Mercado Libre requiere que tengas la reputación en verde como para asegurarse de que quienes aprovechen este beneficio, sean personas que vienen realizando un buen trabajo en la plataforma o tiendas oficiales. Como en el caso de las ofertas relámpago (link nota 3.2), tus publicaciones deben ser:",
+                    "list1": [
+                        "De catálogo o tener 3 ventas en los ultimos 30 días.",
+                        "Productos clasicos o premium.",
+                        "Tener 30 días de vigencia. (Cuando esté por vencer, aparecerá por defecto en ofertas relámpago)."
+                        ],
+                    "paragraph3": "**Desde Crystal Zoom, te recomendamos no extender demasiado las ofertas, que juegues con el stock del producto y el vencimiento de la oferta.**"
+                }
+        }
+    },
+    "discountsGuide": {
+        "id": "discounts-guide",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "¿Cómo creo descuentos y a que productos lo aplico?",
+                "paragraph1": "En la sección de crear descuentos de Mercado Libre, podés elegir muy fácilmente la opción de a qué  “publicación” otorgarle el descuento y el porcentaje que desees. Te aconsejamos que un descuento que atraiga a tus posibles compradores, es aquel que tiene una rebaja del 20%; en productos que circulen y tengan buenas ventas.",
+                "img-alt": "publicaciones de mercado libre"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "title": "¿Qué necesito para aplicar descuentos?",
+                    "paragraph1": "Es importante saber que Mercado Libre establece una serie de requisitos para poder crear ofertas en tus productos:",
+                    "list1": [
+                        "Los productos tienen que tener buenas opiniones, y ser en promedio igual o mayor a tres estrellas.",
+                        "Sólo puedes aplicar descuentos en los productos nuevos que tengan un mínimo de 3 ventas en los últimos 30 días.",
+                        "Necesitar tener reputación verde, ser MercadoLíder o tener una tienda oficial"
+                        ]
+                },
+            "s2":
+            {
+                "title": "Cómo ven los compradores tus ofertas",
+                "paragraph1": "Los van a ver en la sección exclusiva de Mercado Puntos. Además, aparecerán más arriba en los listados y tus compradores verán que estás ofreciendo un precio promocional.",
+                "paragraph2": "Si ofrecés Envío Gratis o sos Tienda Oficial, tus publicaciones tendrán más visibilidad.",
+                "paragraph3": "¿Qué pasa si modifico el precio de mi publicación?",
+                "paragraph4": "Cuando participas en una Oferta compartida:",
+                "list1": [
+                    "**Si bajás el precio de tu publicación y tu oferta está programada**, se actualiza el descuento a tu cargo y se mantiene el descuento extra de Mercado Libre.",
+                    "*Si bajás el precio de tu publicación y tu oferta está activa**, se eliminará el descuento a tu cargo y se mantiene el descuento extra de Mercado Libre.",
+                    "**Si subís el precio de tu publicación y tu oferta está activa o programada**, dejarás de ofrecer el descuento. Podrás ofrecerlo nuevamente si tu publicación vuelve a cumplir con los requisitos."
+                    ]
+            }
+        }
+    },
+    "centralOffersGuide": {
+        "id": "central-offers-guide",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Central de ofertas: cómo funciona y por qué puede facilitarte el trabajo",
+                "img-alt": "laptop mostrando la interfaz de Crystal Zoom"
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "La solución **Central de ofertas** permite a los vendedores tener toda la información de sus publicaciones en un solo lugar. Su principal funcionalidad es **concentrar todas las ofertas y descuentos para poder llevar un control y darles mayor seguimiento**. Además, permite crear y aplicar los descuentos para configurar los precios. Se pueden realizar acciones y modificaciones por publicación o de forma masiva. El principal objetivo es que sea más sencillo y ágil participar de las campañas y eventos.",
+                    "paragraph2": "La central de ofertas tiene dos **secciones**, por un lado muestra un **análisis con estadísticas y datos** sobre cuántos y cuáles son los productos con descuentos y de qué campañas forman parte. Por otro lado, tiene la sección de **Gestión** que permite **configurar los descuentos, las ofertas, determinar los precios y activarlos** directamente desde la plataforma. Cuando se configura el descuento a realizar se envía la petición a Mercado Libre, y una vez que sea permitido se activa automáticamente, sin necesidad de realizar planillas de Excel o acciones extra."
+                },
+            "s2":
+            {
+                "title": "Central de ofertas: Estadísticas",
+                "paragraph1": "En la **sección de estadísticas** se puede ver la cantidad de campañas de ofertas a las que la cuenta fue invitada a participar, los productos con ofertas y/o descuentos activos, y los productos a los que se puede aplicar un descuento.",
+                "paragraph2": "Además, se puede ver y filtrar las publicaciones con ofertas: de qué campaña forman parte, en qué estado están, cuál es el precio al que están publicadas, y cuándo comienza y finaliza la oferta. Desde esta sección, también está la posibilidad de modificar o cancelar la oferta o el descuento. "
+            },
+            "s3":
+            {
+                "title": "¿Cómo modificar una oferta?",
+                "paragraph1": "Para modificar una oferta se puede hacer clic en la ruedita de configuración que aparece al costado de la publicación, desde allí esta la posibilidad de cambiar el precio o asignar la cantidad de stock disponible para esa oferta."
+            },
+            "s4":
+            {
+                "title": "Central de ofertas: Estrategia",
+                "paragraph1": "Desde la **sección Estrategia**, se pueden **configurar las ofertas y los descuentos de forma individual**, es decir, uno por uno; o de forma masiva. Además, se puede aplicar el mismo porcentaje de descuento a varios productos, lo que permite mayor facilidad y agilidad para crearlos."
+            }
+        }
+    },
+    "howToSell": {
+        "id": "how-to-sell",
+        "cardContents": {
+            "s1": 
+            {
+                "title": "Cómo vender productos en Mercado Libre por primera vez",
+                "img-alt": "interfaz de publicacion de mercadopago",
+                "paragraph1": "Hoy día, utilizar una plataforma en línea como **Mercado libre**, te ofrece muchas ventajas entre las que podemos contar. No necesitas tener una tienda física, llegas a más personas, tu trato es personal y te permite realizar transacciones seguras y sin ningún tipo de riesgos. Además que es el lugar perfecto para aquellos que nunca han realizado un venta en línea."
+            }
+        },
+        "dropdownContent": {
+            "s1": 
+                {
+                    "paragraph1": "Siempre y cuando sigas los sencillos pasos que te ofrece la plataforma para publicar **tu producto** y escuches las recomendaciones que se te ofrece gracias a años de experiencia. Tu futuro como emprendedor en línea está garantizado. Así que solamente debes comenzar con el primer paso que es crear tu cuenta de mercado libre.",
+                    "paragraph2": "**Pasos para vender productos en Mercado Libre por primera vez**. Una vez que te hayas registrado en la página y [creado tu cuenta](https://miracomosehace.com/cambiar-contrasena-cuenta-mercado-libre/) el primer paso que debes realizar para **vender un producto** es elegir el tipo al que pertenece tu producto.",
+                    "paragraph3": "Cuando ingresas a tu cuenta, te darás cuenta en la parte superior de la pantalla encontraras varias opciones que te permitirán realizar varias acciones en tu cuenta.",
+                    "paragraph4": "Estas están en una barra amarilla y te podemos nombrar por ejemplo Categorías, Ofertas, Ayuda, Ingresar, Mis compras, etc. aquí conseguiremos también la opción de Vender.",
+                    "paragraph5": "Vamos a seleccionarla y se nos mostrar un cuadro con **varias categorías** y debes elegir una que contenga el producto que deseas publicar. Lo que lo hace tan sencillo, es que el mismo sistema te guía."                    
+                },
+            "s2":
+            {
+                "paragraph1": "El siguiente paso será describir le producto que estás publicando, debes agregar un título llamativo y no tan general. Llama más la atención por ejemplo decir “LED Smart TV LG de 55 pulgadas nuevo con 2 meses de garantía”. Que “TV nuevo”. Es importante también, que des detalles claro sobre el producto, como color, dimensiones, peso, el material de fabricación, etc.",
+                "paragrahp2": "Debes también **subir la mayor cantidad de imágenes posibles**, donde se puedan ver los diferentes ángulos del producto. Estas imágenes debes ser de muy buena calidad, ya que esto disipara cualquier duda en el futuro cliente sobre el estado actual del producto. Una vez hayas terminado con la descripción debes hacer clic en el botón Confirmar."
+
+            },
+            "s3":
+            {
+                "paragraph1": "Ahora el siguiente paso es la definición del precio del producto, cuál será el valor que le darás y que esperas recibir por parte del cliente.",
+                "paragraph2": "Luego debes elegir el  **tipo de publicación**, donde puedes elegir entre Gratuita, clásica y Prémium. Debes elegir aquella que se adapte a tus necesidades, pero si estás comenzando debes elegir la opción gratuita.",
+                "paragraph3": "El último paso es elegir que método de envío vas a usar y el **método de pago** que utilizaras para concretar la venta del producto, también debes indicar si ofreces garantías o no.",
+                "paragraph4": "Ahora solo te quedará hacer clic en la opción Publicar, para que se muestre tu producto en la plataforma y luego hacerle un seguimiento a la misma. Cualquier inquietud, Cyrstal Zoom puede asesorarte para más información sobre como publicar en Mercado Libre. "
+            }
+        }
     }
 }

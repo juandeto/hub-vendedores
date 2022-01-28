@@ -8,7 +8,7 @@ const ModuleList: FC = function() {
     const { t } = useTranslation('modules');
 
     const moduleLinks: Item[] = MODULES_CONTENT.map(m => {
-        return {children: <a className="moduleList__link" href={`#${t(m.id)}`}>{m.title}</a>}
+        return {children: <a className="moduleList__link" href={`#${t(m.id)}`}>{t(m.title)}</a>}
     })
 
     return (
@@ -18,7 +18,7 @@ const ModuleList: FC = function() {
         bulletType='number'
         colorBullet="text" 
         lineHeight="24px" 
-        margin="24px 0"/>
+        margin="20px 0"/>
     )
 }
 

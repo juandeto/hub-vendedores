@@ -50,7 +50,8 @@
         "react/prop-types": 0,
         "react/display-name": "off",
         "func-names": "off",
-        "react/self-closing-comp": "off"
+        "react/self-closing-comp": "off",
+        "import/no-cycle": "error"
     },
     "settings": {
         "import/resolver": {
