@@ -33,9 +33,9 @@ const CardContent: FC<PropsCardContent> = function({dropdownContent, isOpen}: Pr
         }}
             className='cardDropdown'>
                 {
-                Object.values(dropdownContent).map((s: JsxProps[] )=> {
+                Object.values(dropdownContent).map((s: JsxProps[], i )=> {
                     
-                    return <FlexBoxContainer alignItems='flex-start'>
+                    return <FlexBoxContainer key={`keyFlex-${i+1}`} alignItems='flex-start'>
                             {
                                 s.map((jsx:JsxProps, key:number)=> {
                                     const { type, properties} = jsx

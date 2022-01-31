@@ -15,6 +15,7 @@ const Card: FC<CardProps> = function({ children, id, addedClass }) {
 
     return (
         <article 
+        data-testid="moduleCard"
         id={id}
         className={`card__container ${addedClass}`}>
            {children}

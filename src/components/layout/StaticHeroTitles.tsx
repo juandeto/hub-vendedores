@@ -17,7 +17,7 @@ const StaticHeroTitles: FC = function() {
     return (
         <div className="staticHero_titles">
             <Title title="Edición 2021" color="primary" Tag="h2"/><br/>
-            <Title title="Como vender mas en Mercado Libre" color="primary" Tag="h2"/>
+            <Title title="Como vender mas en Mercado Libre" color="primary" Tag="h1"/>
             <Spacer type="vertical" size="24px" />
             <Paragraph 
             fontSize="big"

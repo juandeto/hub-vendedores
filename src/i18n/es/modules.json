@@ -1,4 +1,10 @@
 {
+    "sideBarModules": {
+        "title": "Modulos"
+    },
+    "divisorBar": {
+        "label": "Guía para vender con Mercado Libre"
+    },
     "module1": {
         "id": "que-es-y-para-que-sirve-la-publicidad-en-mercado-libre",
         "cardContents": {

@@ -24,5 +24,5 @@
   },
   "include": [
     "eslintrc.js",    "src/**/*"
-, "i18n/i18n.tsx"  ]
+, "i18n/i18n.tsx", "App.test.tsx", "./jest-setup.ts"  ]
 }
