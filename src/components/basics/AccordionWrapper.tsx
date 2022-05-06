@@ -1,15 +1,13 @@
 import  { FC, useRef, useState, useEffect } from 'react'; 
 
 interface PropsAccordionWrapper {
-    isOpen: boolean
+    isOpen: boolean,
+    id: string
 }
 
-const defaultProps: PropsAccordionWrapper = {
-    isOpen: false
-}
 
 const AccordionWrapper: FC<PropsAccordionWrapper> = function({
-   isOpen, children
+   isOpen, children, id
 }) {
     const dropRef = useRef<HTMLHeadingElement>(null)
     const [childHeight, setChildHeight] = useState<number>(0)
@@ -27,7 +25,12 @@ const AccordionWrapper: FC<PropsAccordionWrapper> = function({
         }
     })
     return (
-        <div ref={dropRef} 
+        <div 
+        ref={dropRef}
+        aria-labelledby={id}
+        id={id}
+        aria-hidden={!isOpen}
+        data-testid="accordion"
         style={{
             padding:  `${isOpen ? padding : 0}px 0`,
             maxHeight: `${isOpen ? (padding * 4) + (childHeight || 0) : 0}px`
@@ -37,7 +40,5 @@ const AccordionWrapper: FC<PropsAccordionWrapper> = function({
         </div>
     )
 }
-
-AccordionWrapper.defaultProps = defaultProps;
 
 export default AccordionWrapper;

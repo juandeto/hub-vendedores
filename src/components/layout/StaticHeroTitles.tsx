@@ -3,25 +3,25 @@ import Title from 'components/basics/Title'
 import Paragraph from 'components/basics/Paragraph'
 import List from 'components/basics/List'
 import Spacer from 'components/basics/Spacer'
-
+import { useTranslation } from 'react-i18next';
 
 
 const StaticHeroTitles: FC = function() {
-
+    const { t } = useTranslation('modules');
     const itemsList = [
-        {content: "Guía paso a paso para principiantes"},
-        {content: 'Aprenda a vender con publicidad'},
-        {content: 'Aumente sus ventas con Inteligencia Artificial'}
+        {content: "staticHero.list1.0"},
+        {content: "staticHero.list1.1"},
+        {content: "staticHero.list1.2"}
     ]
 
     return (
         <div className="staticHero_titles">
-            <Title title="Edición 2021" color="primary" Tag="h2"/><br/>
-            <Title title="Como vender mas en Mercado Libre" color="primary" Tag="h2"/>
+            <Title title={t('staticHero.edition')} color="primary" Tag="h2"/><br/>
+            <Title title={t('staticHero.title')} color="primary" Tag="h1"/>
             <Spacer type="vertical" size="24px" />
             <Paragraph 
             fontSize="big"
-            paragraph="Todo lo que necesitas saber para comenzar a vender en Mercado Libre" />
+            paragraph={t('staticHero.slogan')} />
             <List items={itemsList} fontSize="big" fontWeight="bold" colorBullet="text"/>
         </div>
     )

@@ -22,6 +22,7 @@ i18n
       escapeValue: false, // not needed for react as it escapes by default
     },
     resources,
+    react: { useSuspense: false }
   });
 
 export default i18n;

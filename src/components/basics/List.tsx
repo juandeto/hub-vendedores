@@ -17,7 +17,7 @@ interface PropsUlist {
    bulletType?: string,
    colorBullet?: colorBull,
    fontWeight?: string,
-   margin?:string
+   margin?:string,
 }
 
 const defaultProps = {
@@ -27,7 +27,7 @@ const defaultProps = {
     lineHeight:  "24px", 
     bulletType: 'disc', 
     margin: "0",
-    colorBullet: 'primary' as colorBull
+     colorBullet: 'primary' as colorBull,
     }
 
 

@@ -16,18 +16,20 @@ interface PropsCardWrapper {
 }
 
 const CardWrapper: FC<PropsCardWrapper> = function({module, index}) {
+    const { t } = useTranslation('modules');
     const [isOpen, setIsOpen] = useState<boolean>(false)
     const { id, cardContent, dropdownContent } = module
     const handleSeeMore = () => setIsOpen(!isOpen)
-    const { t } = useTranslation('modules');
-
+    const innerId = `${id}--${index}`
+    
     return (
         <Card id={t(id)} addedClass="cardWrapper">
             <CardContent cardContent={cardContent} index={index}/>
-            <SeeMoreLabel index={index} handleSeeMore={handleSeeMore} isOpen={isOpen}/>
+            <SeeMoreLabel id={innerId} index={index} handleSeeMore={handleSeeMore} isOpen={isOpen}/>
             <CardDropdown 
-            isOpen={isOpen}
-            dropdownContent={dropdownContent}
+                id={innerId}
+                isOpen={isOpen}
+                dropdownContent={dropdownContent}
             />
         </Card>
     )

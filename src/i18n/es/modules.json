@@ -1,14 +1,29 @@
 {
+    "staticHero": {
+        "edition": "Edición 2021",
+        "title": "Como vender más en Mercado Libre",
+        "slogan": "Todo lo que necesitas saber para comenzar a vender en Mercado Libre",
+        "list1": [
+            "Guía paso a paso para principiantes.",
+             "Aprenda a vender con publicidad.",
+             "Aumente sus ventas con Inteligencia Artificial."
+         ]
+    },
+    "sideBarModules": {
+        "title": "Modulos"
+    },
+    "divisorBar": {
+        "label": "Guía para vender con Mercado Libre"
+    },
     "adsExplanation": {
-        "id": "ads-explanation",
+        "id": "que-es-y-para-que-sirve-la-publicidad-en-mercado-libre",
         "cardContents": {
-            "s1": 
+            "s1":
             {
                 "title": "¿Que es y para que sirve la publicidad en Meli?",
                 "img-alt": "Mac Book pc displaying Mercado Libre web",
                 "paragraph1": "La **publicidad en Mercado Libre permite dar más visibilidad a las marcas y productos dentro del sitio.** Hay distintos formatos de publicidad que acompañan al recorrido de compra y varían según los objetivos esperados."
             }
-            
         },
         "dropdownContent": {
                 "s1": 
@@ -24,17 +39,16 @@
                 {
                     "title": "¿Qué significa que Product Ads es una herramienta de performance marketing?",
                     "paragraph1": "Product Ads, como herramienta de performance marketing, **permite que las publicaciones alcancen las mejores posiciones, se ubiquen por encima de la competencia y a su vez, prioriza a los anuncios en base a su probabilidad de conversión y la rentabilidad esperada**. Al tener un **costo por clic**, sólo se gasta dinero cuando alguien hace clic en ese artículo, es decir, cuando mostró interés en él."
-                    
                 },
             "s3":
                 {
                     "title": "¿Cuáles son los beneficios de Product Ads, la publicidad en Mercado Libre?",
                      "list1": [
-                           {"content1": "Relevancia: millones de compradores buscando y comprando a diario"},
-                            {"content2": "Efectividad."},
-                            {"content3": "Relación costo/beneficio"},
-                            {"content4": "Llega a personas interesadas en lo que vendes"},
-                            {"content5": "Ayuda a mejorar el rendimiento organico de tus publicaciones"}
+                           "Relevancia: millones de compradores buscando y comprando a diario",
+                            "Efectividad.",
+                            "Relación costo/beneficio",
+                            "Llega a personas interesadas en lo que vendes",
+                            "Ayuda a mejorar el rendimiento organico de tus publicaciones"
                         ]
                 },
                

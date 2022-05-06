@@ -54,7 +54,7 @@ const MODULES_CONTENT = [
                 {
                     type: "title",
                     properties: {
-                        title:  "adsExplanation.dropdown.s1.title",
+                        title:  "adsExplanation.dropdownContent.s1.title",
                         Tag: "h4",
                         color: "text"
                     }
@@ -64,7 +64,7 @@ const MODULES_CONTENT = [
                     properties: {
                         fontSize: "big",
                         lineHeight: "big",
-                        paragraph: "adsExplanation.dropdown.s1.paragraph1",
+                        paragraph: "adsExplanation.dropdownContent.s1.paragraph1",
                     }
                 },
                 {
@@ -72,7 +72,7 @@ const MODULES_CONTENT = [
                     properties: {
                         fontSize: "big",
                         lineHeight: "big",
-                        paragraph:"adsExplanation.dropdown.s1.paragraph2",
+                        paragraph:"adsExplanation.dropdownContent.s1.paragraph2",
                     }
                 },
                 {
@@ -80,14 +80,14 @@ const MODULES_CONTENT = [
                     properties: {
                         fontSize: "big",
                         lineHeight: "big",
-                        paragraph: "adsExplanation.dropdown.s1.paragraph3",
+                        paragraph: "adsExplanation.dropdownContent.s1.paragraph3",
                     }
                 },
                 {
                     type: "image",
                     properties: {
                         src: cellPic,
-                        alt: "adsExplanation.dropdown.s1.img-alt",
+                        alt: "adsExplanation.dropdownContent.s1.img-alt",
                     }
                 },
                 {
@@ -96,7 +96,7 @@ const MODULES_CONTENT = [
                         fontSize: "big",
                         lineHeight: "big",
                         color: "primary",
-                        paragraph: "adsExplanation.dropdown.s1.paragraph4",
+                        paragraph: "adsExplanation.dropdownContent.s1.paragraph4",
                     }
                 }
                 ],
@@ -104,7 +104,7 @@ const MODULES_CONTENT = [
                 {
                     type: "title",
                     properties: {
-                        title: "adsExplanation.dropdown.s2.title",
+                        title: "adsExplanation.dropdownContent.s2.title",
                         Tag: "h4",
                         color: "text"
                     }
@@ -114,7 +114,7 @@ const MODULES_CONTENT = [
                     properties: {
                         fontSize: "big",
                         lineHeight: "big",
-                        paragraph: "adsExplanation.dropdown.s2.title",
+                        paragraph: "adsExplanation.dropdownContent.s2.title",
                     }
                 },
             ],
@@ -122,7 +122,7 @@ const MODULES_CONTENT = [
                     {
                         type: "title",
                         properties: {
-                            title: "adsExplanation.dropdown.s3.title",
+                            title: "adsExplanation.dropdownContent.s3.title",
                             Tag: "h4",
                             color: "text"
                         }
@@ -131,11 +131,11 @@ const MODULES_CONTENT = [
                     type: "list",
                     properties: {
                         items: [
-                            {content: "adsExplanation.dropdownContent.s1.list1.0"},
-                            {content: "adsExplanation.dropdownContent.s1.list1.1"},
-                            {content:  "adsExplanation.dropdownContent.s1.list1.2"},
-                            {content:  "adsExplanation.dropdownContent.s1.list1.3"},
-                            {content:  "adsExplanation.dropdownContent.s1.list1.4"}
+                            {content: "adsExplanation.dropdownContent.s3.list1.0"},
+                            {content: "adsExplanation.dropdownContent.s3.list1.1"},
+                            {content:  "adsExplanation.dropdownContent.s3.list1.2"},
+                            {content:  "adsExplanation.dropdownContent.s3.list1.3"},
+                            {content:  "adsExplanation.dropdownContent.s3.list1.4"}
                         ],
                         fontSize: "big",
                         colorBullet: "text"
@@ -146,7 +146,7 @@ const MODULES_CONTENT = [
                 {
                     type: "title",
                     properties: {
-                        title:"adsExplanation.dropdown.s4.title",
+                        title:"adsExplanation.dropdownContent.s4.title",
                         Tag: "h4",
                         color: "text"
                     }
@@ -310,7 +310,7 @@ const MODULES_CONTENT = [
             },
         ]},
         dropdownContent: {
-                s1: [
+            s1: [
                 {
                     type: "paragraph",
                     properties: {
@@ -1971,6 +1971,13 @@ const MODULES_CONTENT = [
                             paragraph: "howToSell.dropdownContent.s3.paragraph4",
                         }
                     },
+                    {
+                        type: "spacer",
+                        properties: {
+                            type: "vertical",
+                            size: "120px"
+                        }
+                    }
                 ],
         }  
     },

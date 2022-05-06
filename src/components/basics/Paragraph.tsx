@@ -22,16 +22,15 @@ const defaultProps = {
 
 const Paragraph: FC<PropsParagraph> = function({paragraph, color, fontSize, lineHeight, display}) {
     const { t } = useTranslation('modules');
-    const translate = t(paragraph)
     return (
         <Markdown 
-        /* eslint react/no-children-prop: ["error", { "allowSelfClosing": true }] */
-             children={translate} 
              components={{
-                p: (node) => <p className={`paragraph ${color}-c ${fontSize}-fz`} style={{ lineHeight, display: display}}>{node.children}</p>,
+                p: (node) => <p className={`paragraph ${color}-c ${fontSize}-fz`} style={{ lineHeight, display}}>{node.children}</p>,
                 strong: (node) => <strong>{node.children}</strong>,
                 a: (node) => <a href={node.href} target="_blank" rel="noopener noreferrer">{node.children}</a>
-             }} />
+             }}>
+                 {t(paragraph)}
+             </Markdown>
     )
 }
 
